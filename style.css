@@ -265,15 +265,21 @@ nav{
 
 .plancard h2{
     margin-left: 0;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 
 .plancard h4{
     font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 .plancard p{
     font-size: 1rem;
+}
+
+.plancardlowersection{
+    margin-top: 1rem;
 }
 
 .reasoncard{
@@ -358,15 +364,14 @@ margin-bottom: 10px;
 }
 
 .footersection{
-   margin-top: 20px;
-   margin-bottom: 20px;
+   margin: 2.5rem 3.5rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
 
-.footersection p{
-    margin-left: 5rem ;
+.footersection .footerpara{
+    margin-left: 4rem ;
     font-size: 1rem;
 }
 
@@ -375,7 +380,7 @@ margin-bottom: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2rem;
+    margin: 2rem 1rem;
 }
 
 .footercard{
@@ -383,6 +388,7 @@ margin-bottom: 10px;
    display: flex;
    flex-direction: column;
    justify-content: center;
+   text-decoration: underline;
 }
 
 .footlist{
@@ -396,6 +402,23 @@ margin-bottom: 10px;
     padding: 0.4rem;
 }
 
-.bottomlang{
-    width: 20%;
+.footlist li:hover{
+    cursor: pointer;
+}
+
+.bottomlang .languagebutton{
+    display: flex;
+    padding: 0.4rem 0.8rem;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    margin: 2rem 3.5rem;
+    justify-content: flex-start;
+}
+
+.bottomname{
+    margin: 2rem 4rem;
 }
