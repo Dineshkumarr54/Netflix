@@ -422,3 +422,123 @@ margin-bottom: 10px;
 .bottomname{
     margin: 2rem 4rem;
 }
+
+@media screen and (max-width:900px){
+    .plancontainer,.reasoncontainer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carouselsection h2,.plansection h2,.reasonTojoinsection h2 ,.faqsection h2{
+        margin-left: 1rem ;
+        font-size: 1.8rem;
+    }
+
+    .plancard,.reasoncard{
+        width: 100%;
+        height: 20vh;
+        padding: 2rem 1rem 1rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        
+    }
+    .reasoncard{
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .reasoncarduppersection{
+        width: 80%;
+    }
+    .reasoncarduppersection h2{
+        font-size: 1.5rem;
+    }
+    .reasoncarduppersection p{
+        margin-left: 1rem;
+    }
+
+    .reasoncardlowersection{
+        width: 20%;
+    }
+
+    .plancard h2{
+        margin-left: 0;
+        margin-bottom: 0.55rem;
+        font-size: 1rem;
+    }
+    
+    .plancard h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .plancard p{
+        font-size: 0.8rem;
+    }
+
+    .plancontainer,.reasoncontainer,.faqcardscontainer{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .carouselcardcontainer{
+        width: 100%;
+    }
+
+    .carouselcard{
+        width: 12%;
+        height: 30vh;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .footersection{
+        display: flex;
+        margin: 2rem 0.5rem;
+        padding: 2rem 0.2rem;
+        flex-direction: column;
+        justify-content: center;
+     }
+
+     .banner-section{
+        height: 50vh;
+     }
+
+     .bannercontainer h2{
+        font-size: 2rem;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .bannercontainer h4{
+        font-size: 1rem;
+        margin: 20px;
+    }
+    
+    .bannercontainer p{
+        font-size: 0.8rem;
+        margin: 20px;
+    }
+
+    .inputcontainer{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .getStartedbutton{
+        width: 38%;
+        background-color: red;
+        border:none;
+        outline: none;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
